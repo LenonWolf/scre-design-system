@@ -6,7 +6,11 @@ import { resolve } from 'path';
 export default defineConfig({
   plugins: [
     react(),
-    dts({ insertTypesEntry: true })
+    dts({
+      include: ['src'],
+      insertTypesEntry: true,
+      tsconfigPath: './tsconfig.app.json'
+    })
   ],
   build: {
     lib: {
