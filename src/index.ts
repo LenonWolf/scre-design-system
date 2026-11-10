@@ -1,2 +1,10 @@
-// Aquí exportaremos los componentes y tokens
-// Ejemplo futuro: export { Button } from './components/Button/Button';
+export { Button } from './components/Button';
+export { Input } from './components/Input';
+export { Card } from './components/Card';
+export { Alert } from './components/Alert';
+export { Switch } from './components/Switch';
+export { Modal } from './components/Modal';
+export { Checkbox } from './components/Checkbox';
+export { Radio } from './components/Radio';
+export { Dropdown } from './components/Dropdown';
+export { Tabs } from './components/Tabs';

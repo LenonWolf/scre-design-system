@@ -1,5 +1,8 @@
 {
-  "name": "scre-design-system",
+  "name": "@lenonwolf/scre-design-system",
+  "files": [
+    "dist"
+  ],
   "private": false,
   "version": "1.0.0",
   "type": "module",
